@@ -1,0 +1,11 @@
+header(class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow")
+  //- nav(class="navbar sticky-top navbar-light bg-light")
+  div(class="container-fluid")
+    a(class="navbar-brand", href="/") Sample Web Auth Service
+    div(class="text-end")
+      - if (req.session)
+        form(method="POST", action="#{req.rootDir}logout")
+          button(type="submit", class="btn btn-outline-light me-2") Logout
+      - else
+        button(type="button", class="btn btn-outline-light me-2", data-bs-toggle="modal", data-bs-target="#loginModal") Login
+        button(type="button", class="btn btn-warning", data-bs-toggle="modal", data-bs-target="#signupModal") Sign-up

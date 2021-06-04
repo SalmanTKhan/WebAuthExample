@@ -1,0 +1,8 @@
+extends bslayout
+
+block head
+	- auto title = "Log in";
+
+block contents
+	- if (error.length)
+		p.error= error

@@ -1,0 +1,15 @@
+{
+	"authors": [
+		"Salman T. Khan"
+	],
+	"dependencies": {
+		"vibe-d": "~>0.9.4",
+		"diet-ng": "~>1.7.5",
+		"botan": "~>1.12.19",
+		"arsd-official:sqlite": "~>9.5.0",
+		"fluentsqlite": "~>0.1.5"
+	},
+	"description": "A simple vibe.d server application.",
+	"license": "proprietary",
+	"name": "webauth"
+}

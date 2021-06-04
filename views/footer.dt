@@ -1,0 +1,4 @@
+footer(class="bd-footer py-3 mt-3 bg-light")
+  div.container
+    div.row
+      div.col-4
